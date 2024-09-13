@@ -1,0 +1,11 @@
+.Discount h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.Discount{
+  margin-top: 5rem;
+  background: var(--primary-color);
+}
+
+

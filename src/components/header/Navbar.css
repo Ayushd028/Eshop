@@ -1,0 +1,33 @@
+.nav_ul a {
+    color: var(--success-color);
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.nav_ul a:hover, .nav_ul a.active {
+    color: var(--dark-color); /* Changes link color on hover/active */
+}
+.navItem{
+    padding: 0 1rem;
+}
+.nav-sec{
+    display: block;
+    box-shadow: 1px 6px 10px -1px rgb(7, 7, 7);
+    margin: 15px;
+    background: rgb(175, 172, 172);
+}
+.sticky-nav{
+    position: sticky !important;
+    top: 0;
+    margin: 15px;
+    background: rgb(175, 172, 172);
+    z-index: 1060;
+    animation: stickyHeader 0.3s ease forwards;
+}
+@keyframes stickyHeader{
+    0%{
+        transform: translateY(-100px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}

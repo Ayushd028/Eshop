@@ -1,0 +1,41 @@
+/* Newsletter Section */
+.newsletter {
+  background: #007bff;
+  color: #fff;
+  text-align: center;
+}
+
+.newsletter-col1 h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.newsletter-col1 p {
+  font-size: 1.2rem;
+}
+
+.form-input {
+  margin-top: 1.5rem;
+}
+
+.form-control {
+  width: 80%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.main-btn {
+  background-color: #ffd700;
+  color: #007bff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  margin-left: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.main-btn:hover {
+  background-color: #e0e0e0;
+}

@@ -1,0 +1,87 @@
+/* New Arrivals */
+.NewArrivals_col1 img {
+    width: 100%;
+    max-width: 250px; /* Max size to limit large images */
+    mix-blend-mode: multiply;
+}
+
+.NewArrivals_col1 {
+    background: var(--light-color);
+    padding: 0;
+    text-align: center; /* Center text and images */
+}
+
+/* Arrivals */
+.Arrivals_col1 img {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    background: var(--light-color);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.Arrivals_main {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 1rem;
+    margin: 1rem 0;
+    transition: transform 0.3s ease;
+}
+
+.Arrivals_main:hover {
+    transform: translateY(-5px);
+}
+
+.Product_name {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+h3 {
+    font-size: 1.8rem; /* Increase size */
+    font-weight: bold;
+    color: rgb(67, 71, 75);
+    text-align: center;
+    margin-bottom: 1.5rem; /* Adjust spacing */
+    margin-top: 3rem; /* Increase margin from the top */
+    padding-top: 2rem; /* Add padding from the top */
+    text-transform: uppercase; /* Optional for a bolder look */
+    letter-spacing: 2px;
+    position: relative;
+}
+
+h3::after {
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: black; /* Use your primary color */
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+    border-radius: 2px; /* Rounded line */
+}
+.extra {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(67, 71, 75);
+    text-align: center;
+    margin-bottom: auto;
+    padding-top: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+}
+.extra::after {
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: black; /* Use your primary color */
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+    border-radius: 2px; /* Rounded line */
+}

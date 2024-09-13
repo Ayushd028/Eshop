@@ -1,0 +1,15 @@
+.Product_name{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.Product_price{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.card_head{
+    background: var(--light-color);
+}
+.card_head img:hover{
+    cursor: pointer;
+    
+}

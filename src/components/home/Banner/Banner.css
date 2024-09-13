@@ -1,0 +1,26 @@
+
+.Banner_1,.Banner_2,.Banner_3{
+    background-image: url("/Users/aizen/Documents/Shop/Shoppers Stop/src/photo/background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_col1 h1{
+    font-size: 4rem;
+    font-weight: 600;
+}
+.main_btn{
+    padding: 0.6rem 1.7rem;
+    border: 0;
+    background: var(--dark-color);
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 6px 10px -1px rgb(7, 7, 7);
+}
+.main_btn:hover{
+    transition: 0.3s ease-in-out;
+    background: var(--light-color);
+    color: #000;
+    border: 2px solid var(--dark-color);
+    transform: scale(1.05);
+    
+}

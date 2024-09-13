@@ -1,0 +1,74 @@
+/* styles.css */
+
+/* Container for the all-products section */
+.all-products {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+  }
+  
+  /* Product item card styling */
+  .product-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .product-item:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Image container styling */
+  .product-image-container {
+    height: 200px; /* Set a fixed height for the image container */
+    overflow: hidden; /* Hide any overflow to keep images within the container */
+    border-radius: 10px; /* Rounded corners for the container */
+  }
+  
+  /* Image styling */
+  .product-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    transition: transform 0.3s ease;
+  }
+  
+  /* Product name styling */
+  .product-item h1 {
+    font-size: 1.25rem;
+    margin: 15px 0;
+    color: #333;
+  }
+  
+  /* Product price styling */
+  .product-item p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Button styling */
+  .btn-3 {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-3:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 767px) {
+    .product-item {
+      margin-bottom: 20px;
+    }
+  }
+  

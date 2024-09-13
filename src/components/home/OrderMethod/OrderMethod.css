@@ -1,0 +1,67 @@
+/* Parent Container */
+.order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  padding: 2rem 0; /* Adjusted padding for breathing space */
+}
+
+/* Individual Cards */
+.order_col1 {
+  background: #fff;
+  margin: 1.5rem; /* Increased margin for better spacing */
+  padding: 1.5rem; /* Adequate padding for content spacing */
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05); /* Softer shadow for a subtle 3D effect */
+  border-radius: 15px; /* Softer, rounded corners for modern look */
+  border: 1px solid rgba(0, 0, 0, 0.05); /* Light border to separate from background */
+  height: 260px; /* Adjusted height for balance */
+  width: 220px;  /* Adjusted width for proportions */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distribute content evenly */
+  align-items: center; /* Center content horizontally */
+  transition: transform 0.4s ease, box-shadow 0.4s ease; /* Smooth transition on hover */
+}
+
+/* Hover Effect */
+.order_col1:hover {
+  cursor: pointer;
+  transform: scale(1.05); /* Slight scale-up on hover */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+  border: 2px solid rgb(76, 76, 138); /* Border color change on hover */
+}
+
+/* Image Styles */
+.order_col1 img {
+  height: 120px; /* Adjusted size for balance */
+  width: 120px;
+  object-fit: contain;
+  margin-bottom: 1rem; /* Adds space between image and heading */
+  transition: transform 0.3s ease; /* Smooth transition for image on hover */
+}
+
+/* Image Hover Effect */
+.order_col1:hover img {
+  transform: scale(1.1); /* Slight zoom-in effect on hover */
+}
+
+/* Heading Styles */
+.order_col1 h6 {
+  letter-spacing: 0.05rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: rgb(76, 76, 138); /* Matching color with hover border */
+}
+
+/* Paragraph Styles */
+.order_col1 p {
+  font-size: 0.9rem;
+  color: #555; /* Softer text color */
+}
+
+/* Center Row */
+.order .row {
+  justify-content: center;
+}
